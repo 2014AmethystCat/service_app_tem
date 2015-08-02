@@ -1,0 +1,51 @@
+{
+    "booklist": [
+        {
+            "BookId": 1,
+            "BookLogo": "http://www.dspmind.com/upload/images/20150623/1435071269335528.jpg",
+            "BookName": "tengxunshipin",
+            "BookSize": "16005998",
+            "BookSource": "http://www.dspmind.com/upload/files/20150624/4/tengxunshipin_8200-4.apk",
+            "BriefSummary": "腾讯视频是中国最大的视频门户",
+            "Clickurl": "http://www.mobdsp.com/cb/c?k=93&m1=[M_MAC]&m2=[M_IDFA]&m3=[M_IMEI]&o=",
+            "GiveCoin": 100
+        },
+        {
+            "BookId": 2,
+            "BookLogo": "http://www.dspmind.com/upload/images/20150623/1435071269335528.jpg",
+            "BookName": "tengxunshipin",
+            "BookSize": "16005998",
+            "BookSource": "http://www.dspmind.com/upload/files/20150624/4/tengxunshipin_8200-4.apk",
+            "BriefSummary": "腾讯视频是中国最大的视频门户",
+            "Clickurl": "http://www.mobdsp.com/cb/c?k=93&m1=[M_MAC]&m2=[M_IDFA]&m3=[M_IMEI]&o=",
+            "GiveCoin": 100
+        }
+    ],
+    "book_count": 2,
+    "ret_code": 0,
+    "ret_msg": "success",
+
+   "mybooklist" : [
+        {
+            "BookId": 1,
+            "BookLogo": "http://www.dspmind.com/upload/images/20150623/1435071269335528.jpg",
+            "BookName": "tengxunshipin",
+            "BookSize": "16005998",
+            "BookSource": "http://www.dspmind.com/upload/files/20150624/4/tengxunshipin_8200-4.apk",
+            "BriefSummary": "腾讯视频是中国最大的视频门户",
+            "Clickurl": "http://www.mobdsp.com/cb/c?k=93&m1=[M_MAC]&m2=[M_IDFA]&m3=[M_IMEI]&o=",
+            "GiveCoin": 100
+        },
+        {
+            "BookId": 2,
+            "BookLogo": "http://www.dspmind.com/upload/images/20150623/1435071269335528.jpg",
+            "BookName": "tengxunshipin",
+            "BookSize": "16005998",
+            "BookSource": "http://www.dspmind.com/upload/files/20150624/4/tengxunshipin_8200-4.apk",
+            "BriefSummary": "腾讯视频是中国最大的视频门户",
+            "Clickurl": "http://www.mobdsp.com/cb/c?k=93&m1=[M_MAC]&m2=[M_IDFA]&m3=[M_IMEI]&o=",
+            "GiveCoin": 100
+        }
+   ]
+}
+

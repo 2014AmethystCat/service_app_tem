@@ -1,0 +1,12 @@
+{
+    "adlist":[{
+        "Link": "http://game.91.com/kuwanxishuo/21826117.html",
+        "ImageSrc": "http://app.milkpapa.com:8080/static/images/20150508175845980.jpg"
+    }, {
+        "Link": "http://wan.91.com/info/150511/21826480.html",
+        "ImageSrc": "http://app.milkpapa.com:8080/static/images/20150511175658864.jpg"
+    }],
+    "ret_code" : 0,
+    "ret_msg" : "success",
+    "total_count" : 2
+}

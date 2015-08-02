@@ -1,0 +1,8 @@
+{
+    "ret_code" : 0,
+    "ret_msg" : "success",
+    "versionCode" : 1,
+    "name": "WifiConnector.apk",
+    "url": "http://app.milkpapa.com:8080/static/WifiConnector.apk",
+    "force": "NO"
+}

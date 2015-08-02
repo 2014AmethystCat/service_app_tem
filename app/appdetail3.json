@@ -1,0 +1,19 @@
+{
+    "detail_info": {
+        "AppId": 3,
+        "AppLogo": "http://app.milkpapa.com:8080/static/apk/TencentVideo/logo.jpg",
+        "AppName": "腾讯视频",
+        "AppSize": "17.84MB",
+        "AppSource": "http://app.milkpapa.com:8080/static/apk/TencentVideo/TencentVideo_1080_V3.9.0.6272.apk",
+        "AppSummary": "腾讯视频3.9陪你过春节~<br><br>迎凛冬，权力的游戏全网独播！<br>演唱会，50场顶级直播等你来~<br>上饭团，最热粉丝八卦聚集地！<br>玩游戏，最hot的礼包领不停~<br><br>腾讯视频，海量高清影视平台，2015年度内容巨幕打开，《芈月传》、《武则天》等顶级国产大剧独家揽入；HBO独家官方授权播放平台，《权力的游戏》、《新闻编辑室》、《兄弟连》等独家引进；继续独播第四季《中国好声音》；《我们15个》、《性感野兽》等大型原创综艺嗨翻2015！<br><br>【腾讯视频最新内容精华，为您精彩呈现】<br><br>《活色生香》唐嫣、李易峰、陈伟霆相爱相杀，寒假颜值最高年代剧。<br>《医馆笑传》古装探案喜剧，陈赫、张子萱戏里戏外都是情。<br>陈妍希版《神雕侠侣》，看史上最胖小龙女与杨过热恋。<br>《长大》 陆毅变身毒舌闷骚医生与白百何上演师徒恋。<br>《权力的游戏》HBO奇幻史诗，腾讯视频全网独播。<br>《超级战队》奇能异士挑战极限项目，三位顶级明星化身中国队长。<br>《我看你有戏》顶级导师成龙选拔中国最有戏的人才。<br>《来吧！灰姑娘》看一个质朴女孩如何变成一位超级巨星。<br><br>【更多详细更新内容，敬请关注】<br><br>综艺强档：《宝贝你好》90后孕妇瞒丈夫拍大尺度写真；《有料》李治廷被粉丝问及范冰冰面色尴尬；《Oh My思密达》韩女星被曝靠输血养颜；TFboys自导自演《变形计》；<br><br>电视剧大集合：《活色生香》变装！80岁的李易峰长这样？《千金女贼》幂幂，你老公和你闺密圆房了！《逆光之恋》古剑小师妹变灵魂追查凶手；《神雕侠侣》杨过告别神雕，找郭芙寻断臂之仇。<br><br><br>电影片库：《黄金时代》汤唯神演绎萧红颠沛一生；《心花路放》黄渤徐峥爆笑猎艳之旅；《马达加斯加的企鹅》企鹅四贱客化身萌宠特工队；《超体》女王斯嘉丽大战崔岷植；《亲爱的》赵薇黄渤第后级出演催泪大片。<br><br>韩剧：《家族之间何必这样》恩浩借工作之便苦追瑞郁；《我的爱属于你》度妍智建恋情遭准婆婆反对；《High Schoo love on》优炫苦等天使瑟菲重返人间；《甜蜜的秘密》弼立使计骗岳母欲带走孩子；《恋爱的发现》文晸赫追回郑有美终成眷属？<br><br><br>腾讯视频是为Android 手机用户量身打造的网络视频播放客户端，采用轻量级的界面设计，提供高清流畅的播放服务，支持分享视频到QQ和微信，内置搞笑,英剧,美剧,韩剧,微电影,好莱坞,MV,游戏,比赛,直播,LOL,电竞,世界杯等特色频道，独家放送《中国好声音》、《权力的游戏》等资源，为Android手机用户带来不一样的在线视频观看新体验。",
+        "AppVersion": "3.9.0.6272",
+        "BriefSummary": "腾讯视频，海量高清影视平台",
+        "ImageCount": 5,
+        "ImageIsVertical": 1,
+        "ImageSrc": "http://app.milkpapa.com:8080/static/apk/TencentVideo/snapshot/1.jpg",
+        "ImageSrcList": ["http://app.milkpapa.com:8080/static/apk/TencentVideo/snapshot/2.jpg","http://app.milkpapa.com:8080/static/apk/TencentVideo/snapshot/3.jpg","http://app.milkpapa.com:8080/static/apk/TencentVideo/snapshot/4.jpg","http://app.milkpapa.com:8080/static/apk/TencentVideo/snapshot/5.jpg"],
+        "ImageStyle": "width:92px;margin:0 0 0 21px;"
+    },
+    "ret_code": 0,
+    "ret_msg": "success"
+}

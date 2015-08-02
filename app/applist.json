@@ -1,0 +1,121 @@
+{
+   "chosenapplist" : [
+      {
+         "AppId" : 101,
+         "AppLogo" : "http://www.dspmind.com/upload/images/20150707/1436280389564840.png",
+         "AppName" : "楚楚街",
+         "PackageName" : "com.culiukeji.huanletao",
+         "AppSize" : "7M",
+         "AppSource" : "http://www.dspmind.com/upload/files/20150707/4/chuchujie_QD_cpa98.apk",
+         "BriefSummary" : "手机购物就用楚楚街 (九块九包邮)！楚楚街推出的9块9包邮购物理念",
+         "Clickurl" : "http://www.mobdsp.com/cb/c?k=101&m1=[M_MAC]&m2=[M_IDFA]&m3=[M_IMEI]&o=",
+         "GiveCoin" : 130
+      },
+      {
+         "AppId" : 100,
+         "AppLogo" : "http://www.dspmind.com/upload/images/20150706/1436112632666688.png",
+         "AppName" : "贝贝",
+         "PackageName" : "com.husor.beibei",
+         "AppSize" : "8M",
+         "AppSource" : "http://www.dspmind.com/upload/files/20150706/4/wm037.signed.apk",
+         "BriefSummary" : "贝贝网（beibei.com），一家深受中国妈妈信赖的国内领先的母婴特卖平台",
+         "Clickurl" : "http://www.mobdsp.com/cb/c?k=100&m1=[M_MAC]&m2=[M_IDFA]&m3=[M_IMEI]&o=",
+         "GiveCoin" : 123
+      },
+      {
+         "AppId" : 99,
+         "AppLogo" : "http://www.dspmind.com/upload/images/20150706/1436112212602503.png",
+         "AppName" : "爱奇艺PPS",
+         "PackageName" : "tv.pps.mobile",
+         "AppSize" : "11M",
+         "AppSource" : "http://www.dspmind.com/upload/files/20150706/4/pps_1640.apk",
+         "BriefSummary" : "全球华人最喜爱的网络视频软件，影视动漫综艺一网打尽",
+         "Clickurl" : "http://www.mobdsp.com/cb/c?k=99&m1=[M_MAC]&m2=[M_IDFA]&m3=[M_IMEI]&o=",
+         "GiveCoin" : 120
+      },
+      {
+         "AppId" : 97,
+         "AppLogo" : "http://www.dspmind.com/upload/images/20150704/1435970378964612.png",
+         "AppName" : "JJ斗地主",
+         "PackageName" : "cn.jj",
+         "AppSize" : "19M",
+         "AppSource" : "http://www.dspmind.com/upload/files/20150704/4/JJLord.40203.38998.visible.apk",
+         "BriefSummary" : "JJ斗地主是最棒的棋牌游戏！四大特点完胜其他斗地主！",
+         "Clickurl" : "http://www.mobdsp.com/cb/c?k=97&m1=[M_MAC]&m2=[M_IDFA]&m3=[M_IMEI]&o=",
+         "GiveCoin" : 110
+      },
+      {
+         "AppId" : 102,
+         "AppLogo" : "http://www.dspmind.com/upload/images/20150721/1437486237995052.png",
+         "AppName" : "百度手机卫士",
+         "PackageName" : "cn.opda.a.phonoalbumshoushou",
+         "AppSize" : "11M",
+         "AppSource" : "http://www.dspmind.com/upload/files/20150721/4/cn.opda.a.phonoalbumshoushou_standard_1012446b.apk",
+         "BriefSummary" : "百度卫士是百度公司全新出品的简单可信赖的系统工具软件",
+         "Clickurl" : "http://www.mobdsp.com/cb/c?k=102&m1=[M_MAC]&m2=[M_IDFA]&m3=[M_IMEI]&o=",
+         "GiveCoin" : 100
+      },
+      {
+         "AppId" : 103,
+         "AppLogo" : "http://www.dspmind.com/upload/images/20150721/1437488914165579.png",
+         "AppName" : "开心消消乐2015",
+         "PackageName" : "com.wenzhuo.popCandy.yinhe",
+         "AppSize" : "2M",
+         "AppSource" : "http://www.dspmind.com/upload/files/20150721/4/dongxinBZ1_kaixinxiaoxiaole2015-tiaozhengban-v2.9-0417.apk",
+         "BriefSummary" : "《开心消消乐2015》是全球最流行的超萌消除游戏",
+         "Clickurl" : "http://www.mobdsp.com/cb/c?k=103&m1=[M_MAC]&m2=[M_IDFA]&m3=[M_IMEI]&o=",
+         "GiveCoin" : 100
+      },
+      {
+         "AppId" : 104,
+         "AppLogo" : "http://www.dspmind.com/upload/images/20150721/1437489524652383.png",
+         "AppName" : "手机百度",
+         "PackageName" : "com.baidu.searchbox",
+         "AppSize" : "24M",
+         "AppSource" : "http://www.dspmind.com/upload/files/20150721/4/baidusearch_AndroidPhone_1012865l_6.6.apk",
+         "BriefSummary" : "手机百度客户端是百度旗下最权威专业的搜索客户端，是三分之一中国人的搜索首选",
+         "Clickurl" : "http://www.mobdsp.com/cb/c?k=104&m1=[M_MAC]&m2=[M_IDFA]&m3=[M_IMEI]&o=",
+         "GiveCoin" : 100
+      },
+      {
+         "AppId" : 105,
+         "AppLogo" : "http://www.dspmind.com/upload/images/20150721/1437490137605106.png",
+         "AppName" : "虾米音乐",
+         "PackageName" : "fm.xiami.main",
+         "AppSize" : "17M",
+         "AppSource" : "http://www.dspmind.com/upload/files/20150721/4/10004085@xiamiv5_99_5.0.5.apk",
+         "BriefSummary" : "虾米拥有最好的音乐推荐系统和国内最准确最完整的音乐资料库。",
+         "Clickurl" : "http://www.mobdsp.com/cb/c?k=105&m1=[M_MAC]&m2=[M_IDFA]&m3=[M_IMEI]&o=",
+         "GiveCoin" : 100
+      },
+      {
+         "AppId" : 106,
+         "AppLogo" : "http://www.dspmind.com/upload/images/20150721/1437493193507348.png",
+         "AppName" : "优酷",
+         "PackageName" : "com.youku.phone",
+         "AppSize" : "24M",
+         "AppSource" : "http://www.dspmind.com/upload/files/20150721/4/Youku_Android_4.8_juhecpa3.apk",
+         "BriefSummary" : "优酷是中国第一视频网站",
+         "Clickurl" : "http://www.mobdsp.com/cb/c?k=106&m1=[M_MAC]&m2=[M_IDFA]&m3=[M_IMEI]&o=",
+         "GiveCoin" : 100
+      },
+      {
+         "AppId" : 107,
+         "AppLogo" : "http://www.dspmind.com/upload/images/20150721/1437493397845968.png",
+         "AppName" : "同城在线约会",
+         "PackageName" : "com.miaoyuanhunlian.main",
+         "AppSize" : "3M",
+         "AppSource" : "http://www.dspmind.com/upload/files/20150721/4/tongchengzaixianyuehui_1.3.1_cpa_dongxinshidai_01_20150612.apk",
+         "BriefSummary" : "同城单身交友聊天恋爱必备神器！同城约会第一品牌。",
+         "Clickurl" : "http://www.mobdsp.com/cb/c?k=107&m1=[M_MAC]&m2=[M_IDFA]&m3=[M_IMEI]&o=",
+         "GiveCoin" : 100
+      }
+   ],
+   "chosenapplist_count" : 10,
+   "gameapplist" : null,
+   "gameapplist_count" : 0,
+   "ret_code" : 0,
+   "ret_msg" : "success",
+   "toolapplist" : null,
+   "toolapplist_count" : 0
+}

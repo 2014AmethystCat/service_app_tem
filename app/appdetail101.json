@@ -1,0 +1,25 @@
+{
+    "detail_info": {
+        "AppId": 1,
+        "AppLogo": "http://app.milkpapa.com:8080/static/apk/TencentStock/logo.jpg",
+        "AppName": "自选股",
+        "AppSize": "6.26MB",
+        "PackageName" : "com.culiukeji.huanletao",
+        "AppSource": "http://app.milkpapa.com:8080/static/apk/TencentStock/QQStock_Android_3.9.1_751.apk",
+        "AppSummary": "游戏介绍\nJJ斗地主是最棒的棋牌游戏！\n四大特点完胜其他斗地主！\n1.最强大：拥有斗地主、欢斗、二斗、赖子、单机五种玩法！\n2.最实惠：充值卡,手机等千种实物大奖天天发！\n3.最火爆：无需注册即可对战千万真人玩家！\\n4.最专业：几十种专业赛制，独有排行榜功能！\\n〓〓〓新版来袭〓〓〓\\n新增微信登录，让您登录更便捷！\\n新增微信支付，让您充值更便捷！\\n优化支付宝充值，让您充值更流畅！\\n优化联动优势短信充值，移动短信充值覆盖全国省份！\\n更新流程优化，减少您的等待时间。\\n优化多处细节，解决之前版本多处bug。\\n〓〓〓关注我们〓〓〓\\n★官方微信号：jjmobile\\n★官方微博: http://e.weibo.com/jjmobile\\n★客服电话:010-62981235\\n★官方网站：http://m.jj.cn\n",
+        "back":"自选股从同花顺、大智慧、通达信、操盘手等同类理财炒股软件中脱颖而出，曾荣获安卓峰会的金掌奖“最具潜力”手机炒股应用及互联网大会“最佳工具应用奖”！<br>自选股是腾讯出品的一款简单、易用、专业的手机炒股软件，覆盖沪深、港股、美股三大市场，适用于所有股票投资者！<br>主要功能：<br>1、7*24小时全球财经资讯、市场要闻实时推送；<br>2、即时股价、公告、研报等重要消息提醒；<br>3、QQ账号登陆，网页、手机、QQ同步查看自选股票；<br>4、沪深、港股、美股Bats全市场实时行情，永久免费；<br>5、采用高速股票行情数据传输接口，系统稳定，省电省流量；<br>6、在股票圈与微信好友畅聊股票，分享投资心得。<br><br><br><br>新增功能：<br>1、全新股票圈，新年贺岁版，发表评论全体网友可见；<br>2、支持投资眼光，与好友欢乐PK，更多惊喜等你发现！",
+        "AppVersion": "3.9.1",
+        "BriefSummary": "简单、易用、专业的手机炒股软件",
+        "ImageCount": 5,
+        "ImageIsVertical": 1,
+        "ImageSrc": "http://app.milkpapa.com:8080/static/apk/TencentStock/snapshot/1-800.png",
+        "ImageSrcList": ["http://app.milkpapa.com:8080/static/apk/TencentStock/snapshot/2-800.jpg",
+            "http://app.milkpapa.com:8080/static/apk/TencentStock/snapshot/3-800.jpg",
+            "http://app.milkpapa.com:8080/static/apk/TencentStock/snapshot/4-800.png",
+            "http://app.milkpapa.com:8080/static/apk/TencentStock/snapshot/5-800.png"
+        ],
+        "ImageStyle": "width:92px;margin:0 0 0 21px;"
+    },
+    "ret_code": 0,
+    "ret_msg": "success"
+}

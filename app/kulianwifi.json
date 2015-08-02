@@ -1,0 +1,37 @@
+{
+    "wifilist": [
+    {
+        "SSID":"@xiaohongkeji",
+        "password":""
+    },
+    {
+        "SSID":"@小鸿科技",
+        "password":""
+    },
+    {
+        "SSID":"@珂卡芙",
+        "password":""
+    },
+    {
+        "SSID":"Hongwifi_龙胜电器",
+        "password":""
+    },
+    {
+        "SSID":"CMCC_4G",
+        "password":""
+    },
+    {
+        "SSID":"Hongwifi_美丽角色",
+        "password":""
+    },
+    {
+        "SSID":"豪普生达",
+        "password":""
+    }, {
+        "SSID": "SuperMary",
+        "password": "mary"
+    }, {
+        "SSID": "SuperMary-5G",
+        "password": "mary"
+    }]
+}

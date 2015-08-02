@@ -1,0 +1,18 @@
+{
+    "wifilist":[{
+        "SSID": "SuperMary",
+        "level": "100"
+    }, {
+        "SSID": "Middle school 7",
+        "level": "20"
+    }, {
+        "SSID": "TP-Link",
+        "level": "90"
+    }, {
+        "SSID": "Netgear",
+        "level": "60"
+    }, {
+        "SSID": "D-Link",
+        "level": "80"
+    }]
+}

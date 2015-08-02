@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html><!-- manifest="safari.manifest" -->
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta HTTP-EQUIV="pragma" CONTENT="no-cache">
+    <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+    <meta HTTP-EQUIV="expires" CONTENT="0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="js/jquery.mobile/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/hotel.css" />
+    <link rel="stylesheet" href="css/list.css" />
+    <link rel="stylesheet" href="css/comment.css" />
+    <link rel="stylesheet" href="css/content.css" />
+    <link rel="stylesheet" href="css/progress.css" />
+    <link rel="stylesheet" href="js/gallery/idangerous.swiper.css">
+    <link rel="stylesheet" href="js/gallery/gallery-app.css">
+    <script src="js/jquery-1.9.0.min.js"></script>
+    <script src="js/iscroll-lite.js"></script>
+    <script src="js/jquery.mobile/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/google.fastbutton.js"></script>
+    <script src="js/jquery.google.fastbutton.js"></script>
+    <title>登录</title>
+</head>
+
+<body>
+
+<div data-role="page" id="LoginPage" data-title="登录">
+    <div role="main" class="ui-content account-wrapper">
+        <br>
+        <p style="backg"><font color="#2EB1E8" >用户名</font></p>
+         <input type="text" name="username" id="loginUsername" value="手机号"/>
+        <br>
+        <p style="backg"><font color="#2EB1E8" >密码</font></p>
+        <input type="password" name="password" id="loginPassword" value=""/>
+        <br>
+        <fieldset data-role="controlgroup">
+            <input type="checkbox" name="checkbox-1" id="checkbox-1" class="custom" />
+            <label for="checkbox-1">记住密码</label>
+        </fieldset>
+        <br>
+        <a class="ui-btn" href="" id="toRegistBtn">注册</a>
+        <a class="ui-btn" href="" id="loginBtn">登录</a>
+        <div class="changePwdBtn">忘记密码？</div>
+        <center><div class="licenseLink">
+            <p>点击上面按钮“登录”即表示您同意</p>
+            <a href="license.html">《用户协议》</a>
+        </div></center>
+    </div>
+</div>
+
+<div data-role="page" id="RegisterPage">
+    <div role="main" class="ui-content account-wrapper">
+        <br>
+        <p style="backg"><font color="#2EB1E8" >用户名</font></p>
+        <input type="tel" id="registPhoneNumber" value="手机号"/>
+        <br>
+        <div class="ui-grid-a">
+            <div class="ui-block-a" style="width:50%">
+            <p style="backg"><font color="#2EB1E8" >验证码</font></p>
+                <input type="text" id="registVerifyCode"/>
+            </div>
+            <div class="ui-grid-b" style="width:50%">
+                <a class="ui-btn verifyCodeBtn" name="getVerifyCode" >获取验证码</a>
+            </div>
+        </div>
+        <p style="backg"><font color="#2EB1E8" >密 码</font></p>
+        <input type="password" id="registPassword"/>
+
+        <p style="backg"><font color="#2EB1E8" >再次输入密码</font></p>
+        <input type="password" id="repeatPassword"/>
+
+        <br>
+        <div>
+            <center>
+                <a class="ui-btn" id="registBtn">提   交</a>
+                <br />
+                <div class="licenseLink">
+                    <p>点击上面按钮“提交”即表示您同意</p>
+                    <a href="license.html">《用户协议》</a>
+                </div>
+            </center>
+        </div>
+    </div>
+</div>
+
+<div data-role="page" id="MainPage" data-title="连接">
+
+    <div role="main" class="ui-content main-content">
+
+        <div id="connectionView">
+<!--             <iframe class='portalframe' src="http://182.254.140.228/portaltt/LogonSuccess1.html">
+                <p>T_T 浏览器不支持iframe</p>
+            </iframe>
+ -->
+
+
+            <div class="ui-grid-a message_grid" style="display: none;" >
+                <div class="ui-block-a" style="width:10%">
+                    <img src="images/horn.png"/>
+                </div>
+                <div class="ui-grid-b" style="width:90%">
+                    <ul id="twitter">
+                    </ul>
+                </div>
+            </div>
+            <center>
+            <div class="wifiStatus">
+                <img class="statusOff" src="images/wifi_state_off.png">
+                <img class="statusOn" src="images/wifi_state_on.png" style="display:none;">
+
+                <div class="statusOff">点击连接WiFi</div>
+                <div class="statusOn" style="display:none;">WiFi已连接</div>
+                <!-- <div id="statusDesc">调试信息</div> -->
+            </div>
+            </center>
+
+        </div>
+
+        <div id="choiceView">
+
+            <div class="fouce" style="display: none;">
+                <div id="divSlidePanle" style="overflow: hidden;">
+                    <div id="slidebox" class="img_box" style="width: 13153px; -webkit-transition-property: -webkit-transform; transition-property: -webkit-transform; -webkit-transform-origin: 0px 0px 0px; -webkit-transform: translate3d(-5637px, 0px, 0px) scale(1);">
+                        <ul id="adlist">
+                        </ul>
+                    </div>
+                </div>
+                <ol id="olSlideNum">
+                    <li class=""></li>
+                    <li class=""></li>
+                    <li class="cur"></li>
+                    <li class=""></li>
+                    <li class=""></li>
+                </ol>
+            </div>
+            <div class="app-list"></div>
+            <center>
+                <div class="refresh-app-list" style="display:none;">
+                    <img class="refresh-image" src="images/refresh.png">
+                    <p>点击重新加载</p>
+                </div>
+            </center>
+        </div>
+
+        <div id="mineView">
+            <div class="avatar_bg">
+                <image src="images/me-head-bg.png" />
+                <span>我的</span>
+            </div>
+
+            <div class="account-wrapper">
+                <dl class="acount_list">
+                    <dt><img src="images/account.png"></dt>
+                    <dd><span class="nick_name" id="nick_name">小小向日葵</span></dd>
+                    <dd><span>账  号:</span><div class="account_item account_w" id="account">account</div></dd>
+                </dl>
+
+                <dl class="account_coin">
+                    <dt><img src="images/coin.png"></dt>
+                    <dd><div>&nbsp;当前可兑换金币</div><div class="account_item" id="coin" >coin</div></dd>
+                </dl>
+
+                <dl class="account_passModify">
+                    <dt><img src="images/key.png"></dt>
+                    <dd><div class="account_item changePwdBtn">修改密码<i class="icon-arrow"></i></div></dd>
+                </dl>
+
+                <dl class="account_feedback">
+                    <dt><img src="images/contact.png"></dt>
+                    <dd><div class="account_item feedbackBtn">问题反馈<i class="icon-arrow"></i></div></dd>
+                </dl>
+
+                <dl class="account_help">
+                    <dt><img src="images/help.png"></dt>
+                    <dd><div class="account_item" id="version">帮助<i class="icon-arrow"></i></div></dd>
+                </dl>
+                <div class="account_exit" style="margin-top:20px;">
+                    <center><a href="" id="logoutBtn" class="ui-btn">退出登录</a></center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+        <div data-role="navbar" id="mainFooter" >
+
+            <div class="wrapper" id="counter_wrapper">
+              <div class="load-bar">
+                <div class="load-bar-inner" data-loading="0"> <span id="counter"></span> </div>
+              </div>
+            </div>
+
+            <ul class="apple-navbar-ui comboSprite">
+                <li><a href="#" id="connectionBtn" data-icon="wifi" class="ui-btn-icon-top ui-btn-active">连接</a></li>
+                <li><a href="#" id="excellentBtn" data-icon="choice" class="ui-btn-icon-top">精选</a></li>
+                <li><a href="#" id="mineBtn" data-icon="mine" class="ui-btn-icon-top">我的</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div data-role="page" id="AppDetailPage" data-title="应用详情">
+    <div role="main" class="ui-content">
+        <div class="appDetail"></div>
+    </div>
+</div>
+
+<div data-role="page" id="ExchangePage" data-title="兑换">
+    <div role="main" class="ui-content">
+
+        <div class="exchangeHeader">
+            <div class="coinIcon"><img src="images/coins.png" /></div>
+            <div>
+                <div class="coin_desc">当前可兑换金币</div>
+                <div class="coin_num">10000</div>
+            </div>
+        </div>
+
+        <div class="exchange-wrapper">
+            <dl class="exchange_list">
+                <dt><div>10元话费</div></dt>
+                <dd><div class="exchange_item" data-coin="10000" data-exchangetype="1">10000金币</div></dd>
+                <dt><div>20元话费</div></dt>
+                <dd><div class="exchange_item" data-coin="20000" data-exchangetype="2">20000金币</div></dd>
+                <dt><div>30元话费</div></dt>
+                <dd><div class="exchange_item" data-coin="30000" data-exchangetype="3">30000金币</div></dd>
+                <dt><div>50元话费</div></dt>
+                <dd><div class="exchange_item" data-coin="50000" data-exchangetype="4">50000金币</div></dd>
+                <dt><div>100元话费</div></dt>
+                <dd><div class="exchange_item" data-coin="100000" data-exchangetype="5">100000金币</div></dd>
+            </dl>
+        </div>
+
+    </div>
+</div>
+
+<iframe style="display:none">
+    <form name="loginform" id="loginform" action="./logon.cgi" method="post">
+        <input type="hidden" name="PtUser" id="username" value="gaopeng"> 
+        <input type="hidden" name="PtPwd" id="password" value="gaopeng"> 
+    </form>
+</iframe>
+
+<script src="js/appBase.js"></script>
+<script src="js/appList.js"></script>
+<script src="js/gallery/idangerous.swiper-2.0.min.js"></script> 
+<script src="js/gallery/gallery-app.js"></script>
+
+</body>
+</html>

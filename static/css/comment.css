@@ -1,0 +1,97 @@
+.comment-area { position: relative; }
+.comment-title { border-top: 1px solid #fff; border-bottom: 1px solid #b8bbbd; background: #E6E8EA; color: #45484d; line-height: 32px; height: 32px; padding-left: 14px; font-size: 16px; }
+.post-comment-status { display: none; height: 68px; position: absolute; background: #FFF; z-index: 9999; top: 35px; left: 0; width: 100%; }
+.post-comment-status .posting, .post-comment-status .post-success, .post-comment-status .post-fail { height: 68px; -webkit-box-sizing: border-box; padding: 12px; }
+.post-comment-status .posting { background: #eaf6e0; }
+.post-comment-status .posting .title { font-size: 15px; color: #49891f; }
+.post-comment-status .posting .detail { font-size: 11px; color: #87957d; margin-top: 2px; }
+.post-comment-status .post-success { background: #eaf6e0; line-height: 44px; font-size: 16px; color: #49891f; }
+.post-comment-status .post-fail { background: #fce7e7; line-height: 44px; }
+.post-comment-status .post-fail .title { display: inline-block; font-size: 18px; color: #e16464; }
+.post-comment-status .post-fail .title .fail-title { font-size: 16px; color: #e16464; line-height: 20px; }
+.post-comment-status .post-fail .title .fail-detail { font-size: 11px; color: #8e6f6f; line-height: 14px; }
+.post-comment-status .post-fail .retry { font-size: 14px; color: #5e3f3f; background-position: -209px -53px; width: 63px; height: 40px; display: inline-block; text-align: center; float: right; margin-right: 12px; }
+.post-comment-status .post-fail .retry2 { font-size: 14px; color: #5e3f3f; background-position: -209px -53px; width: 63px; height: 40px; display: inline-block; text-align: center; }
+.post-comment-status .post-fail .abort { float: right; font-size: 14px; color: #8e6f6f; }
+.pingfen-tab { border-top: 1px solid #B8BBBD; background: #f6f6f6; color: #333; line-height: 35px; height: 35px; padding-left: 14px; font-size: 16px; }
+.pingfen-count, .comment-count { color: #999; }
+.pingfen-detail { padding: 20px 0 20px 14px; font-size: 12px; line-height: 4px; }
+.large-star-group { display: inline-block; line-height: 16px; }
+.large-star { width: 21px; height: 21px; display: inline-block; margin: 0 1px; vertical-align: bottom; }
+.large-star.full { background-position: -5px -6px; }
+.large-star.empty { background-position: -6px -32px; }
+.small-star { width: 13px; height: 13px; display: inline-block; vertical-align: bottom; }
+.small-star-group { margin-left: 5px; }
+.small-star.full { background-position: -46px -6px; }
+.small-star.empty { background-position: -46px -32px; }
+.comment-detail-mark { display: inline-block; color: #919498; margin-left: 10px; }
+.large-figure { color: #ff9307; font-size: 22px; margin-left: 4px; }
+.small-figure { color: #ff9307; font-size: 18px; margin-right: 4px; }
+.comment-list-inner { margin: 0 14px; }
+.comment-list-inner.nocomment-pic { height: 126px; width: 258px; margin: 20px; background-position: 35px -108px; }
+.comment-item { border-bottom: 1px dotted #c6c9ca; margin-top: 18px; }
+.comment-item:last-child{ border-bottom:none;}
+.comment-name-version { height: 28px; }
+.comment-name { color: #919498; font-size: 14px; float: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.comment-version { color: #666; font-size: 11px; float: left; }
+.comment-content { color: #45484d; font-size: 14px; padding-bottom: 12px; line-height: 22px; word-break: break-all; }
+.comment-from { height: 20px; color: #ccc; font-size: 12px; float: left; width: 150px; }
+.comment-time-like { height: 20px; }
+.comment-list .no-msg{padding:10px 10px 10px 15px; color:#ccc; display:block;}
+.comment-list ul li:last { border: 0; }
+.comment-time { color: #ccc; font-size: 12px; float: right; display: inline-block; }
+.comment-like { float: right; font-size: 11px; }
+.comment-like.highlight { color: #919498; }
+.comment-like.gray { color: #d5d5d5; }
+.comment-like.hidden { display: none; }
+.comment-like-num, .comment-unlike-num { display: inline-block; }
+.comment-more { text-align: center; height: 54px; line-height: 54px; font-size: 16px; color: #499eff; }
+.comment-more a { font-size: 16px; color: #499eff; }
+.comment-more.load-more { border-bottom: 1px solid #b9bcbe; }
+.comment-more.load-more .text { font-size: 16px; color: #54565a; display: inline-block; }
+.comment-more .more-btn-1 { background-position: -146px -1px; width: 15px; height: 15px; display: inline-block; }
+.comment-more .more-btn-2 { background-position: -166px -1px; width: 15px; height: 15px; display: inline-block; }
+.comment-more.load-more .direction { margin-left: 8px; font-size: 16px; -webkit-transform: rotate(90deg); display: inline-block; }
+.comment-mask { display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #000; z-index: 9999; -webkit-opacity: .6; }
+.comment-dialog { position: absolute; width: 300px; background-color: #fff; z-index: 10000; top: 35%; left: 10px; -webkit-box-shadow: 0 0 5px #333; -webkit-border-radius: 3px; display: none; }
+textarea.comment-dialog-content { margin-left: 14px; padding: 7px 5px 0; width: 260px; border: 1px solid #d9d9d9; -webkit-border-radius: 3px; height: 22px; max-height: 66px; font-size: 16px; -webkit-user-select: text; background-color: #fff; height: 60px; }
+.comment-like-pic, .comment-unlike-pic { width: 16px; height: 14px; vertical-align: bottom; display: inline-block; margin-right: 4px; }
+.comment-like.highlight .comment-like-pic { background-position: -77px -4px; }
+.comment-like.highlight .comment-unlike-pic { background-position: -110px -4px; }
+.comment-like.gray .comment-like-pic { background-position: -77px -31px; }
+.comment-like.gray .comment-unlike-pic { background-position: -110px -31px; }
+.comment-dialog-btns { background: #bebfbe; padding-top: 1px; overflow: hidden; -webkit-border-radius: 0 0 3px 3px; }
+.comment-dialog-btn { border-top: 1px solid #fff; background: #e7e7e7; color: #424242; font-size: 18px; text-align: center; line-height: 45px; width: 149px; display: inline-block; }
+.comment-dialog-btn.submit { margin-right: 1px; -webkit-border-radius: 0 0 0 3px; }
+.comment-dialog-btn.submit.gray { color: #9e9e9e; }
+.comment-dialog-btn.cancel { -webkit-border-radius: 0 0 3px; }
+.post-comment-outer { text-align: center; }
+a.post-comment-inner { width: 188px; height: 40px; display: block; margin: 15px auto; }
+a.post-comment-inner div { width: 190px; height: 40px; background-position: -4px -58px; color: #444; font-size: 18px; line-height: 40px; }
+textarea.comment-dialog-content.has-content { color: #333; }
+textarea.comment-dialog-content.enable-focus { -webkit-user-select: text; }
+.comment-dialog-stars { margin: 14px 0 14px 12px; }
+.comment-dialog-feeling { display: inline-block; font-size: 16px; margin-left: 6px; }
+.comment-dialog-feeling.highlight { color: #ff9307; }
+.comment-dialog-feeling.gray { color: #999; }
+.comment-dialog-feeling.red { color: red; }
+.comment-wordsremain-outer { height: 30px; }
+.comment-wordsremain-inner { float: right; line-height: 16px; font-size: 14px; color: #9f9f9f; margin-right: 12px; }
+.comment-wordsremain-inner.full { color: #e61f1f; }
+.comment-page .intro { padding: 0; }
+.webapp .comment-dialog-feeling.highlight { color: #000; }
+.webapp .comment-dialog-feeling { display: block; margin-left: 2px; margin-top: 9px; }
+.webapp .comment-dialog-starts { margin: 18px 0 5px 12px; }
+.webapp .submit-score { background-position: -155px -640px; height: 40px; width: 108px; top: 15px; right: 10px; }
+.webapp .submit-text { text-align: center; line-height: 40px; font-size: 18px; }
+.webapp .submit-msg { color: red; text-align: center; line-height: 24px; }
+.webapp .holy-star { position: -40px -380px; }
+.wordsremain-count { color: #54565a; }
+.submit-inner { height: 34px; width: 68px; line-height: 34px; color: #fff; font-weight: 700; text-align: center; }
+.submit-score { position: absolute; top: 32px; right: 16px; width: 68px; height: 34px; background-position: -200px -300px; }
+.holy-star { background-position: -40px -380px; height: 26px; width: 26px; display: inline-block; margin: 0 2px; }
+.star-area { display: inline-block; }
+.star-area-finished { display: inline-block; }
+.star-area .selected, .star-area-finished .selected { background-position: -2px -380px; }
+.score-state { margin-bottom: 6px; font-size: 16px; }
+.tab-score { border-top: 1px solid #CED0D2; padding: 14px; color: #44464a; font-size: 16px; position: relative; }
